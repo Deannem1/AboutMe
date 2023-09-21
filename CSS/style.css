@@ -2,13 +2,16 @@ body {
   background-color: #eeeef6;
 }
 
+header {background-color:#31343d;}
+
 .header-text {color: #31343d;
 background-color: #91cccd;}
 
 .nav-list {
     text-decoration: underline;
     color: #91cccd;
-    display: block;
+    
+    
 }
 
 h1 {
