@@ -18,7 +18,7 @@ h1 {
 
 p {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 12px;
   color: #3f5a7b;
 }
 
@@ -32,14 +32,20 @@ p {
 
 .card {
   flex: 100%;
-  color: white;
+  background-image: ;
+  border: solid 2px;
+  border-color: #91cccd;
+  color: #445876;
   margin: 4px;
   padding: 4px;
     
 }
 .column {
   flex: 48%;
-  color: white;
+  background-image: ;
+  border: solid 2px;
+  border-color: #91cccd;
+  color: #445876;
   margin: 4px;
   padding: 4px;
 }
