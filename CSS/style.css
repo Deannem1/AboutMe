@@ -2,6 +2,15 @@ body {
   background-color: #eeeef6;
 }
 
+.header-text {color: #31343d;
+background-color: #91cccd;}
+
+.nav-list {
+    text-decoration: underline;
+    color: #91cccd;
+    display: block;
+}
+
 h1 {
   color: #445876;
   text-align: center;
