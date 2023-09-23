@@ -1,11 +1,15 @@
 body {
   background-color: #eeeef6;
-  font-family:Arial, Helvetica, sans-serif
+  font-family:Arial, Helvetica, sans-serif;
+  
+  
 }
 
 header {
     background-color:#31343d;
     text-align: left;
+    margin: 0;
+    
     
 }
 
@@ -43,20 +47,26 @@ header p {
 
 h1 {
   color: #445876;
-  text-align: center;
+  text-align:right;
   font-size: 35px;
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
+    padding: 5px;
+    margin: 15px;
     float: left;
     border-right: solid 3px #445876;
     
 }
 
 .section1 { 
+    size: 70%;
+    display: flex;
+    flex-direction:row;
     padding: 10px;
     margin: 10px;
 
@@ -69,6 +79,14 @@ aside {
     padding: 10px 10px 10px 10px;
     margin: 10px;
 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -98,4 +116,19 @@ aside {
   color: #445876;
   margin: 4px;
   padding: 4px;
+}
+
+.nav-bottom {
+        text-decoration: none;
+        overflow: hidden;
+    }
+    
+.nav-bottom a {
+        text-decoration: underline;
+        color:#3f5a7b;
+        float:left;
+        display: block;
+        text-align: left;
+        padding: 10px 15px;
+
 }
