@@ -6,6 +6,9 @@ body {
 }
 
 header {
+    /* display: flex;
+    flex-direction:row;
+    justify-content: space-between; */
     background-color:#31343d;
     text-align: left;
     margin: 0;
@@ -21,13 +24,7 @@ header {
     display: inline-block;
 }
 
-header p {
-    color: #31343d;
-    background-color: #91cccd;
-    margin: 5px 20px 5px 10px;
-    padding: 4px;
-    display: inline-block;
-}
+
 
 .nav-list {
     text-decoration: none;
@@ -51,11 +48,42 @@ h1 {
   font-size: 35px;
 }
 
-aside {
+.banner {
+    background-color: #445876;
+    background-image: url(../Images/blue-chevron-wood.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    text-align: right;
+}
+
+.banner-text {
+    color: #31343d;
+    background-color: #91cccd;
+    margin: 60px 20px 5px 10px;
+    padding: 4px;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+main{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 30%;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 25%;
     padding: 5px;
     margin: 15px;
     float: left;
@@ -64,11 +92,13 @@ aside {
 }
 
 .section1 { 
-    size: 70%;
+    size: 65%;
     display: flex;
     flex-direction:row;
+    justify-content: space-between;
+    align-items: stretch;
     padding: 10px;
-    margin: 10px;
+    margin: 25px;
 
 }
 
@@ -81,13 +111,7 @@ aside {
 
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-    margin: 10px;
-}
+
 
 
 .container {
@@ -119,16 +143,24 @@ main{
 }
 
 .nav-bottom {
-        text-decoration: none;
-        overflow: hidden;
+        list-style-type: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
     }
     
-.nav-bottom a {
+ .nav-bottom li {
+        display: inline-block;
         text-decoration: underline;
+        color: #3f5a7b;
+        font-size: 20px;
+        padding: 20px;  
+    }
+
+.nav-bottom a {
+       
         color:#3f5a7b;
-        float:left;
-        display: block;
-        text-align: left;
-        padding: 10px 15px;
+       
 
 }
+
