@@ -1,16 +1,43 @@
 body {
   background-color: #eeeef6;
+  font-family:Arial, Helvetica, sans-serif
 }
 
-header {background-color:#31343d;}
+header {
+    background-color:#31343d;
+    text-align: left;
+    
+}
 
-.header-text {color: #31343d;
-background-color: #91cccd;}
+.header-text {
+    color: #31343d;
+    background-color: #91cccd;
+    margin: 5px 0 5px 0;
+    padding: 4px 4px 4px 20px;
+    display: inline-block;
+}
+
+header p {
+    color: #31343d;
+    background-color: #91cccd;
+    margin: 5px 20px 5px 10px;
+    padding: 4px;
+    display: inline-block;
+}
 
 .nav-list {
+    text-decoration: none;
+    padding 14px 16px; 
+    overflow: hidden;
+}
+
+.nav-list a {
     text-decoration: underline;
     color: #91cccd;
-    
+    float: right;
+    display: block;
+    text-align: right;
+    padding: 10px; 15px;
     
 }
 
