@@ -22,8 +22,6 @@ header {
     font-size: 35px;
 }
 
-
-
 .nav-list {
     text-decoration: none;
     padding: 14px 16px; 
@@ -93,7 +91,7 @@ aside {
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 5px; 
-    margin: 15px;
+    margin: 15px 15px 5px 15px;
     float: left;
     border-right: solid 3px #445876;  
 }
@@ -197,10 +195,7 @@ div  {
     padding: 10px;
     position: absolute;
     left: 0;
-    bottom: 10px;
-
-    
-    
+    bottom: 10px;  
 }
 
 div h3 {
@@ -215,15 +210,23 @@ div p {
     margin: 5;
 }
 
+footer { 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    margin: 35px;
+}
+
 .nav-bottom {
     display: flex;
     flex-direction: row;
     flex: 100%;
     justify-content:space-around;
     list-style-type: none;
-    padding: 10px 10px 10px 10px;
-    margin: 10px;
-    }
+    padding: 10px 10px 10px 10px; 
+}
     
  .nav-bottom ul{
     display: flex;
@@ -238,8 +241,7 @@ div p {
     color: #3f5a7b;
     font-size: 20px;
     padding: 25px;  
-    
-    }
+}
 
 .nav-bottom a {
     color:#3f5a7b;  
@@ -250,6 +252,24 @@ div p {
     background-color: #3f5a7b;
 }
 
-/* @media screen {
+@media screen and (max-width: 980px){
+    header { 
+        flex-direction: column;
+        height: 150px;
+        padding: 0 20px 20px 20px;
+    }
+
+    .header-text {
+        font-size: 50px;
+    }
+
+    .try {
+        width: 100%;
+        
+
+    }
+}
+
+@media screen and (max-width: 768px){
     
-} */
+}
