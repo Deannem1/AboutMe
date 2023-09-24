@@ -140,6 +140,7 @@ aside {
   height: 50%;
   margin: 4px;
   padding: 4px;
+  position: relative;
     
 }
 .column {
@@ -153,6 +154,7 @@ aside {
   margin: 4px;
   padding: 4px;
   height: 25%;
+  position: relative;
 }
 
 div  {
@@ -161,6 +163,9 @@ div  {
     background-color: #91cccd;
     margin: 5px;
     padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
 }
 
 div h3 {
