@@ -107,7 +107,7 @@ aside {
     margin: 25px;
 }
 
-.section1 p {
+.aboutme {
     display: flex;
     flex-wrap: wrap;
     flex: 100%;
@@ -143,6 +143,8 @@ aside {
     
 }
 .column {
+    /* display: flex;
+    flex-direction: column;     */
   flex: 48%;
   background-color: #3f5a7b;
   border: solid 2px;
@@ -151,6 +153,26 @@ aside {
   margin: 4px;
   padding: 4px;
   height: 25%;
+}
+
+div  {
+    display: inline-block;
+    text-align:left;
+    background-color: #91cccd;
+    margin: 5px;
+    padding: 10px;
+}
+
+div h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+div p {
+    font-size: 12px;
+    padding: 10px 0 2px 5px;
+    margin: 5;
 }
 
 #surf{
@@ -180,6 +202,8 @@ aside {
     background-size: cover;
     background-position: bottom;
 }
+
+
 
 .nav-bottom {
     display: flex;
