@@ -252,6 +252,8 @@ footer {
     background-color: #3f5a7b;
 }
 
+/* as the screen is reduced in size smaller than 980px, the elements will adjust to display in columns rather than rows, 
+some phots will enlarge as others will shrink. This will give it a cleaner view */
 @media screen and (max-width: 980px){
     header { 
         flex-direction: column;
