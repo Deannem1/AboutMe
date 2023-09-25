@@ -140,7 +140,7 @@ aside {
 
 .card {
   flex: 100%;
-  background-color: #3f5a7b;
+  background-color: #91cccd;
   border: solid 3px;
   border-color: #91cccd;
   color: #445876;
@@ -150,9 +150,22 @@ aside {
   position: relative;
     
 }
+
+.card img {
+    width: 100%;
+    height: auto;  
+    display: block;
+    max-height: 100%;
+    opacity: 0.7;
+}
+
+.card img:hover {
+    opacity: 1;
+}
+
 .column {
   flex: 48%;
-  background-color: #3f5a7b;
+  background-color: #91cccd;
   border: solid 3px;
   border-color: #91cccd;
   color: #445876;
@@ -162,40 +175,53 @@ aside {
   position: relative;
 }
 
+.column img {
+    width: 100%;
+    height: auto;  
+    display: block;
+    max-height: 100%;
+    opacity: 0.7;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
 #Surf{ 
-    background-image: url(../Images/surf.jpeg);
+    /* background-image: url(../Images/surf.jpeg);
     background-size: cover;
     background-position: center;
-   opacity: 0.7;
+   opacity: 0.7; */
 
 }
 
-#LED { background-image: url(../Images/LED-Wall.webp);
+
+#LED { 
+    /* background-image: url(../Images/LED-Wall.webp);
     background-size: cover;
     background-position: center;
-    opacity: 0.7;
-
+    opacity: 0.7; */
 }
 
 #Calculator {
-    background-image: url(../Images/calculator.jpeg);
+    /* background-image: url(../Images/calculator.jpeg);
     background-size: cover;
     background-position: center;
-    opacity: 0.7;
+    opacity: 0.7; */
 }
 
 #Puzzels {
-    background-image: url(../Images/puzzle.webp);
+    /* background-image: url(../Images/puzzle.webp);
     background-size: cover;
     background-position: center;
-    opacity: 0.7;
+    opacity: 0.7; */
 }
 
 #Buddy {
-    background-image: url(../Images/park.jpeg);
+    /* background-image: url(../Images/park.jpeg);
     background-size: cover;
     background-position: bottom;
-    opacity: 0.7;
+    opacity: 0.7; */
 }
 
 div  {
