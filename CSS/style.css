@@ -36,6 +36,11 @@ header {
     display: block;
     text-align: right;
     padding: 10px 15px; 
+    text-underline-offset: 0.5em;
+}
+
+.nav-list li{
+    display: inline-block;
 }
 
 .nav-list a:hover {
@@ -117,11 +122,11 @@ aside {
     margin: 10px;
 }
 
-/* .image1 {
+.image1 {
 
-    width: 200;
-    height: 200;
-} */
+    width: 20%;
+    height: 20%;
+}
 
 .container {
   display: flex;
@@ -246,11 +251,13 @@ footer {
     text-decoration: underline;
     color: #3f5a7b;
     font-size: 20px;
-    padding: 25px;  
+    padding: 25px; 
+    text-underline-offset: 0.5em; 
 }
 
 .nav-bottom a {
     color:#3f5a7b;  
+    
 }
 
 .nav-bottom a:hover {
