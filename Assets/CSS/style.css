@@ -43,10 +43,12 @@ header {
     display: inline-block;
 }
 
+/* When the mouse hovers over this text it will appear bolder */
 .nav-list a:hover {
     font-weight: bolder;
 }
 
+/* image placed into the background in this banner */
 .banner {
     height: 150px;
     background-color: #445876;
@@ -83,8 +85,6 @@ main{
     flex: 100%;
     flex-direction: column;
     justify-content: flex-start;
-    /* align-items: flex-start; */
-    
     padding: 10px;
     margin: 10px;
 }
@@ -147,8 +147,7 @@ aside {
   height: 50%;
   margin: 4px;
   padding: 4px;
-  position: relative;
-    
+  position: relative;   
 }
 
 .card img {
@@ -187,43 +186,6 @@ aside {
     opacity: 1;
 }
 
-#Surf{ 
-    /* background-image: url(../Images/surf.jpeg);
-    background-size: cover;
-    background-position: center;
-   opacity: 0.7; */
-
-}
-
-
-#LED { 
-    /* background-image: url(../Images/LED-Wall.webp);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7; */
-}
-
-#Calculator {
-    /* background-image: url(../Images/calculator.jpeg);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7; */
-}
-
-#Puzzels {
-    /* background-image: url(../Images/puzzle.webp);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.7; */
-}
-
-#Buddy {
-    /* background-image: url(../Images/park.jpeg);
-    background-size: cover;
-    background-position: bottom;
-    opacity: 0.7; */
-}
-
 div  {
     display: inline-block;
     text-align:left;
@@ -253,7 +215,7 @@ footer {
     justify-content: space-between;
     align-items: stretch;
     padding: 10px;
-    margin: 35px;
+    margin: 10px;
 }
 
 .nav-bottom {
@@ -282,8 +244,7 @@ footer {
 }
 
 .nav-bottom a {
-    color:#3f5a7b;  
-    
+    color:#3f5a7b;     
 }
 
 .nav-bottom a:hover {
@@ -297,32 +258,38 @@ footer {
         height: 150px;
         padding: 0 20px 20px 20px;
     }
-
     .header-text {
         font-size: 50px;
     }
-
     .section1 {
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
     }
-
+    .image1 {
+        width: 40%;
+        height: 40%;
+        align-self: center;
+    }
+    aside {
+        border-right: 0;  
+        border-bottom: solid 3px #445876;
+    } 
     footer {
         flex-direction: column;
     }
-
-    aside {
-        border-right: 0;  
-        border-bottom: solid 3px #445876; 
-        
-
 }
 
 @media screen and (max-width: 768px){
-    /* .container {
-        height: 1000px;
-    } */
+    .nav-list {
+        padding: 5px;
+    }
+    .image1 {
+        width: 60%;
+        height: 60%;
+        align-self: center;
+    }
+    .aboutme {
+        text-align: center;
+    }
     .card {
         height: 20%;
     }
@@ -336,6 +303,5 @@ footer {
 
     .nav-bottom li {
         padding: 5px;
-    }
-    
+    }   
 }
